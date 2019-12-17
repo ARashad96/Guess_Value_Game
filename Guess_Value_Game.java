@@ -51,7 +51,7 @@ public class Guess_Value_Game extends AppCompatActivity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ARashad96/Numbering_Shapes_Detector"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/ARashad96/Guess_Value_Game"));
                 startActivity(intent);
             }
         });
